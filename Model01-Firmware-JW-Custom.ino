@@ -221,8 +221,8 @@ KEYMAPS(
   [PRIMARY] = KEYMAP_STACKED
   (___,          Key_1, Key_2, Key_3, Key_4, Key_5, Key_LEDEffectNext,
    Key_Backtick, Key_Q, Key_W, Key_E, Key_R, Key_T, Key_Tab,
-   Key_Home,   Key_A, Key_S, Key_D, Key_F, Key_G,
-   Key_End, Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Escape,
+   Key_PageUp,   Key_A, Key_S, Key_D, Key_F, Key_G,
+   Key_PageDown, Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Escape,
    Key_LeftControl, Key_Spacebar, Key_LeftAlt, Key_LeftShift,
    ShiftToLayer(FUNCTION),
 
@@ -258,16 +258,16 @@ KEYMAPS(
 
   [FUNCTION] =  KEYMAP_STACKED
   (___,               Key_F1,           Key_F2,        Key_F3,        Key_F4,        Key_F5,           Key_CapsLock,
-   Key_Tab,           ___,              Key_Backspace, Key_UpArrow,   Key_Delete,    ___,              ___,
+   Key_Tab,           ___,              Key_Home,      Key_UpArrow,   Key_End,       ___,              ___,
    Key_PageUp,        ___,              Key_LeftArrow, Key_DownArrow, Key_RightArrow,___,
-   Key_PageDown,      Key_PrintScreen,  Key_Insert,    ___,           ___,           ___,              ___,
+   Key_PageDown,      Key_PrintScreen,  Key_Backspace, ___,           Key_Delete,    ___,              ___,
    ___, Key_Enter, ___, ___,
    ___,
 
-   Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
-   Consumer_PlaySlashPause,    Consumer_ScanNextTrack, Key_LeftCurlyBracket,     Key_mouseUp,     Key_LeftBracket,          ___,              Key_F12,
-                               ___,                    Key_mouseL,               Key_mouseDn,     Key_mouseR,               ___,              ___,
-   Key_PcApplication,          Consumer_Mute,          Key_RightCurlyBracket,    ___,             Key_RightBracket,         Key_Backslash,    Key_Pipe,
+   Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,               Key_F8,                Key_F9,          Key_F10,          Key_F11,
+   Consumer_PlaySlashPause,    Consumer_ScanNextTrack, ___,                  ___,                   ___,             ___,              Key_F12,
+                               ___,                    Key_LeftCurlyBracket, Key_RightCurlyBracket, Key_LeftBracket, Key_RightBracket, ___,
+   Key_PcApplication,          Consumer_Mute,          ___,                  ___,                   ___,             Key_Backslash,    Key_Pipe,
    ___, ___, Key_Delete, ___,
    ___)
 ) // KEYMAPS(
